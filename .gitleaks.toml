@@ -1,0 +1,26 @@
+title = "Shopkeeper Agent credential checks"
+
+[extend]
+useDefault = true
+
+# Also catch low-entropy database passwords that generic API-token rules can miss.
+[[rules]]
+id = "plaintext-yaml-password"
+description = "Keep YAML database passwords in environment references"
+regex = '''(?mi)^[ \t]*(?:password|passwd|MYSQL_ROOT_PASSWORD|MYSQL_PASSWORD)[ \t]*:[ \t]*['"]?([^ \t\r\n'"$#][^ \t\r\n'"#]*)'''
+path = '''(?i)\.ya?ml$'''
+secretGroup = 1
+
+[[rules]]
+id = "plaintext-env-credential"
+description = "Environment examples must not contain credentials"
+regex = '''(?mi)^[ \t]*(?:[A-Z0-9_]*(?:PASSWORD|PASSWD|API_KEY|ACCESS_TOKEN|SECRET))[ \t]*=[ \t]*['"]?([^ \t\r\n'"$#][^ \t\r\n'"#]*)'''
+path = '''(^|/)\.env(?:\.[^/]*)?$'''
+secretGroup = 1
+
+[[rules]]
+id = "sql-literal-password"
+description = "Do not commit SQL user passwords"
+regex = '''(?i)IDENTIFIED[ \t]+BY[ \t]+['"]([^'"]+)['"]'''
+path = '''(?i)\.sql$'''
+secretGroup = 1

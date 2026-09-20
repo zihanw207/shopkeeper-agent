@@ -1,0 +1,1860 @@
+{
+  "HSQL01.1/answer": {
+    "columns": [
+      "year",
+      "amount",
+      "orders"
+    ],
+    "rows": [
+      {
+        "year": 2024,
+        "amount": 326304.5,
+        "orders": 80
+      },
+      {
+        "year": 2025,
+        "amount": 4021.0,
+        "orders": 6
+      }
+    ]
+  },
+  "HSQL02.1/answer": {
+    "columns": [
+      "base_amount",
+      "current_amount",
+      "delta",
+      "growth_pct"
+    ],
+    "rows": [
+      {
+        "base_amount": 359381.0,
+        "current_amount": 11397.0,
+        "delta": -347984.0,
+        "growth_pct": -96.8287
+      }
+    ]
+  },
+  "HSQL03.1/answer": {
+    "columns": [
+      "month",
+      "amount",
+      "days",
+      "daily_amount"
+    ],
+    "rows": [
+      {
+        "month": 2,
+        "amount": 393920.5,
+        "days": 29,
+        "daily_amount": 13583.47
+      },
+      {
+        "month": 3,
+        "amount": 263573.5,
+        "days": 31,
+        "daily_amount": 8502.37
+      }
+    ]
+  },
+  "HSQL04.1/answer": {
+    "columns": [
+      "orders",
+      "amount",
+      "aov"
+    ],
+    "rows": [
+      {
+        "orders": 440,
+        "amount": 754807.5,
+        "aov": 1715.47
+      }
+    ]
+  },
+  "HSQL05.1/answer": {
+    "columns": [
+      "units",
+      "amount",
+      "unit_price"
+    ],
+    "rows": [
+      {
+        "units": 714,
+        "amount": 17974.0,
+        "unit_price": 25.17
+      }
+    ]
+  },
+  "HSQL06.1/answer": {
+    "columns": [
+      "april_buyers",
+      "may_buyers",
+      "combined_buyers"
+    ],
+    "rows": [
+      {
+        "april_buyers": 20,
+        "may_buyers": 20,
+        "combined_buyers": 20
+      }
+    ]
+  },
+  "HSQL07.1/answer": {
+    "columns": [
+      "customer_id"
+    ],
+    "rows": [
+      {
+        "customer_id": "C011"
+      },
+      {
+        "customer_id": "C012"
+      },
+      {
+        "customer_id": "C013"
+      },
+      {
+        "customer_id": "C014"
+      },
+      {
+        "customer_id": "C015"
+      },
+      {
+        "customer_id": "C016"
+      },
+      {
+        "customer_id": "C017"
+      },
+      {
+        "customer_id": "C018"
+      },
+      {
+        "customer_id": "C019"
+      },
+      {
+        "customer_id": "C020"
+      }
+    ]
+  },
+  "HSQL08.1/answer": {
+    "columns": [
+      "customer_id",
+      "category",
+      "purchase_months"
+    ],
+    "rows": [
+      {
+        "customer_id": "C001",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C001",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C001",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C001",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C001",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C001",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C002",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C002",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C002",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C002",
+        "category": "服饰",
+        "purchase_months": 2
+      },
+      {
+        "customer_id": "C002",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C002",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C003",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C003",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C003",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C003",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C003",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C003",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C004",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C004",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C004",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C004",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C004",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C004",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C005",
+        "category": "休闲零食",
+        "purchase_months": 2
+      },
+      {
+        "customer_id": "C005",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C005",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C005",
+        "category": "服饰",
+        "purchase_months": 2
+      },
+      {
+        "customer_id": "C005",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C005",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C006",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C006",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C006",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C006",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C006",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C007",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C007",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C007",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C007",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C007",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C007",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C008",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C008",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C008",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C008",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C008",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C008",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C009",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C009",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C009",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C009",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C009",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C009",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C010",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C010",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C010",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C010",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C010",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C010",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C011",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C011",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C011",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C011",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C011",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C011",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C012",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C012",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C012",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C012",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C012",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C012",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C013",
+        "category": "休闲零食",
+        "purchase_months": 2
+      },
+      {
+        "customer_id": "C013",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C013",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C013",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C013",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C013",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C014",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C014",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C014",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C014",
+        "category": "服饰",
+        "purchase_months": 2
+      },
+      {
+        "customer_id": "C014",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C014",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C015",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C015",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C015",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C015",
+        "category": "服饰",
+        "purchase_months": 2
+      },
+      {
+        "customer_id": "C015",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C015",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C016",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C016",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C016",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C016",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C016",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C016",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C017",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C017",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C017",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C017",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C017",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C017",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C018",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C018",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C018",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C018",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C018",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C018",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C019",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C019",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C019",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C019",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C019",
+        "category": "鞋靴",
+        "purchase_months": 2
+      },
+      {
+        "customer_id": "C019",
+        "category": "食品饮料",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C020",
+        "category": "休闲零食",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C020",
+        "category": "家用电器",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C020",
+        "category": "手机数码",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C020",
+        "category": "服饰",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C020",
+        "category": "鞋靴",
+        "purchase_months": 3
+      },
+      {
+        "customer_id": "C020",
+        "category": "食品饮料",
+        "purchase_months": 3
+      }
+    ]
+  },
+  "HSQL09.1/answer": {
+    "columns": [
+      "region_name",
+      "category",
+      "amount",
+      "rank_no"
+    ],
+    "rows": [
+      {
+        "region_name": "华东",
+        "category": "手机数码",
+        "amount": 523685.5,
+        "rank_no": 1
+      },
+      {
+        "region_name": "华东",
+        "category": "家用电器",
+        "amount": 164825.5,
+        "rank_no": 2
+      },
+      {
+        "region_name": "华中",
+        "category": "手机数码",
+        "amount": 226249.0,
+        "rank_no": 1
+      },
+      {
+        "region_name": "华中",
+        "category": "家用电器",
+        "amount": 94215.0,
+        "rank_no": 2
+      },
+      {
+        "region_name": "华北",
+        "category": "手机数码",
+        "amount": 195549.0,
+        "rank_no": 1
+      },
+      {
+        "region_name": "华北",
+        "category": "家用电器",
+        "amount": 77611.0,
+        "rank_no": 2
+      },
+      {
+        "region_name": "华南",
+        "category": "手机数码",
+        "amount": 208720.5,
+        "rank_no": 1
+      },
+      {
+        "region_name": "华南",
+        "category": "家用电器",
+        "amount": 33966.0,
+        "rank_no": 2
+      },
+      {
+        "region_name": "西南",
+        "category": "手机数码",
+        "amount": 215111.0,
+        "rank_no": 1
+      },
+      {
+        "region_name": "西南",
+        "category": "家用电器",
+        "amount": 79469.0,
+        "rank_no": 2
+      }
+    ]
+  },
+  "HSQL10.1/answer": {
+    "columns": [
+      "product_id",
+      "amount"
+    ],
+    "rows": [
+      {
+        "product_id": "P003",
+        "amount": 3000.0
+      }
+    ]
+  },
+  "HSQL11.1/answer": {
+    "columns": [
+      "product_id",
+      "amount"
+    ],
+    "rows": [
+      {
+        "product_id": "P002",
+        "amount": 367606.0
+      },
+      {
+        "product_id": "P001",
+        "amount": 348703.5
+      },
+      {
+        "product_id": "P003",
+        "amount": 311798.5
+      },
+      {
+        "product_id": "P014",
+        "amount": 267550.5
+      },
+      {
+        "product_id": "P004",
+        "amount": 191633.0
+      }
+    ]
+  },
+  "HSQL12.1/answer": {
+    "columns": [
+      "product_id",
+      "amount",
+      "share_pct"
+    ],
+    "rows": [
+      {
+        "product_id": "P002",
+        "amount": 935161.5,
+        "share_pct": 23.7575
+      },
+      {
+        "product_id": "P001",
+        "amount": 832393.0,
+        "share_pct": 21.1467
+      },
+      {
+        "product_id": "P003",
+        "amount": 570056.5,
+        "share_pct": 14.4821
+      }
+    ]
+  },
+  "HSQL13.1/answer": {
+    "columns": [
+      "month",
+      "amount",
+      "share_pct"
+    ],
+    "rows": [
+      {
+        "month": 6,
+        "amount": 20000.0,
+        "share_pct": 66.6667
+      },
+      {
+        "month": 7,
+        "amount": 10000.0,
+        "share_pct": 40.0
+      }
+    ]
+  },
+  "HSQL14.1/answer": {
+    "columns": [
+      "customer_id",
+      "orders",
+      "amount"
+    ],
+    "rows": [
+      {
+        "customer_id": "C019",
+        "orders": 24,
+        "amount": 146260.0
+      },
+      {
+        "customer_id": "C002",
+        "orders": 24,
+        "amount": 144943.5
+      },
+      {
+        "customer_id": "C014",
+        "orders": 24,
+        "amount": 133913.0
+      },
+      {
+        "customer_id": "C005",
+        "orders": 24,
+        "amount": 122727.5
+      },
+      {
+        "customer_id": "C007",
+        "orders": 24,
+        "amount": 120590.0
+      },
+      {
+        "customer_id": "C016",
+        "orders": 24,
+        "amount": 118797.0
+      },
+      {
+        "customer_id": "C012",
+        "orders": 24,
+        "amount": 117878.5
+      },
+      {
+        "customer_id": "C009",
+        "orders": 24,
+        "amount": 101061.0
+      },
+      {
+        "customer_id": "C004",
+        "orders": 24,
+        "amount": 100861.0
+      },
+      {
+        "customer_id": "C015",
+        "orders": 24,
+        "amount": 100257.0
+      },
+      {
+        "customer_id": "C011",
+        "orders": 24,
+        "amount": 98215.5
+      },
+      {
+        "customer_id": "C013",
+        "orders": 24,
+        "amount": 97179.0
+      },
+      {
+        "customer_id": "C017",
+        "orders": 24,
+        "amount": 88296.0
+      },
+      {
+        "customer_id": "C020",
+        "orders": 24,
+        "amount": 84197.5
+      }
+    ]
+  },
+  "HSQL15.1/answer": {
+    "columns": [
+      "month",
+      "amount",
+      "ytd_amount"
+    ],
+    "rows": [
+      {
+        "month": 4,
+        "amount": 281803.5,
+        "ytd_amount": 1240457.0
+      },
+      {
+        "month": 5,
+        "amount": 352099.0,
+        "ytd_amount": 1592556.0
+      },
+      {
+        "month": 6,
+        "amount": 328861.5,
+        "ytd_amount": 1921417.5
+      }
+    ]
+  },
+  "HSQL16.1/answer": {
+    "columns": [
+      "period",
+      "amount",
+      "rolling_amount"
+    ],
+    "rows": [
+      {
+        "period": 202501,
+        "amount": 11397.0,
+        "rolling_amount": 237456.0
+      }
+    ]
+  },
+  "HSQL17.1/answer": {
+    "columns": [
+      "month",
+      "orders",
+      "known_amount",
+      "missing_orders"
+    ],
+    "rows": [
+      {
+        "month": 7,
+        "orders": 80,
+        "known_amount": 305844.0,
+        "missing_orders": 0
+      },
+      {
+        "month": 8,
+        "orders": 0,
+        "known_amount": 0,
+        "missing_orders": 0
+      },
+      {
+        "month": 9,
+        "orders": 12,
+        "known_amount": 1000.0,
+        "missing_orders": 2
+      }
+    ]
+  },
+  "HSQL18.1/answer": {
+    "columns": [
+      "orders",
+      "known_orders",
+      "missing_orders",
+      "known_amount",
+      "known_aov"
+    ],
+    "rows": [
+      {
+        "orders": 25,
+        "known_orders": 23,
+        "missing_orders": 2,
+        "known_amount": 14000.0,
+        "known_aov": 608.7
+      }
+    ]
+  },
+  "HSQL19.1/answer": {
+    "columns": [
+      "product_id",
+      "orders",
+      "known_amount"
+    ],
+    "rows": [
+      {
+        "product_id": "P001",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P002",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P003",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P004",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P005",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P006",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P007",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P008",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P009",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P010",
+        "orders": 12,
+        "known_amount": 1000.0
+      },
+      {
+        "product_id": "P011",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P012",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P013",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P014",
+        "orders": 0,
+        "known_amount": 0
+      },
+      {
+        "product_id": "P015",
+        "orders": 0,
+        "known_amount": 0
+      }
+    ]
+  },
+  "HSQL20.1/answer": {
+    "columns": [
+      "member_level",
+      "orders",
+      "buyers",
+      "orders_per_buyer"
+    ],
+    "rows": [
+      {
+        "member_level": "白银",
+        "orders": 120,
+        "buyers": 5,
+        "orders_per_buyer": 24.0
+      },
+      {
+        "member_level": "铂金",
+        "orders": 96,
+        "buyers": 4,
+        "orders_per_buyer": 24.0
+      },
+      {
+        "member_level": "青铜",
+        "orders": 120,
+        "buyers": 5,
+        "orders_per_buyer": 24.0
+      },
+      {
+        "member_level": "黄金",
+        "orders": 144,
+        "buyers": 6,
+        "orders_per_buyer": 24.0
+      }
+    ]
+  },
+  "HSQL21.1/answer": {
+    "columns": [
+      "orders",
+      "days",
+      "daily_orders"
+    ],
+    "rows": [
+      {
+        "orders": 80,
+        "days": 29,
+        "daily_orders": 2.7586
+      }
+    ]
+  },
+  "HSQL22.1/answer": {
+    "columns": [
+      "base_share_pct",
+      "current_share_pct",
+      "change_pp"
+    ],
+    "rows": [
+      {
+        "base_share_pct": 65.6,
+        "current_share_pct": 66.989,
+        "change_pp": 1.389
+      }
+    ]
+  },
+  "HSQL23.1/answer": {
+    "columns": [
+      "quarter",
+      "product_count"
+    ],
+    "rows": [
+      {
+        "quarter": "Q1",
+        "product_count": 7
+      },
+      {
+        "quarter": "Q2",
+        "product_count": 6
+      },
+      {
+        "quarter": "Q3",
+        "product_count": 5
+      },
+      {
+        "quarter": "Q4",
+        "product_count": 6
+      }
+    ]
+  },
+  "HSQL24.1/answer": {
+    "columns": [
+      "amount",
+      "buyers"
+    ],
+    "rows": [
+      {
+        "amount": 302995.0,
+        "buyers": 10
+      }
+    ]
+  },
+  "HSQL25.1/answer": {
+    "columns": [
+      "month",
+      "new_buyers"
+    ],
+    "rows": [
+      {
+        "month": 1,
+        "new_buyers": 20
+      },
+      {
+        "month": 2,
+        "new_buyers": 0
+      },
+      {
+        "month": 3,
+        "new_buyers": 0
+      },
+      {
+        "month": 4,
+        "new_buyers": 0
+      },
+      {
+        "month": 5,
+        "new_buyers": 0
+      },
+      {
+        "month": 6,
+        "new_buyers": 0
+      },
+      {
+        "month": 7,
+        "new_buyers": 0
+      },
+      {
+        "month": 8,
+        "new_buyers": 0
+      },
+      {
+        "month": 9,
+        "new_buyers": 0
+      },
+      {
+        "month": 10,
+        "new_buyers": 0
+      },
+      {
+        "month": 11,
+        "new_buyers": 0
+      },
+      {
+        "month": 12,
+        "new_buyers": 0
+      }
+    ]
+  },
+  "HSQL26.1/answer": {
+    "columns": [
+      "month",
+      "base_amount",
+      "current_amount",
+      "growth_pct"
+    ],
+    "rows": [
+      {
+        "month": 4,
+        "base_amount": 380647.5,
+        "current_amount": 294687.5,
+        "growth_pct": -22.5826
+      },
+      {
+        "month": 5,
+        "base_amount": 327805.5,
+        "current_amount": 405120.0,
+        "growth_pct": 23.5855
+      },
+      {
+        "month": 6,
+        "base_amount": 330496.0,
+        "current_amount": 30000.0,
+        "growth_pct": -90.9227
+      }
+    ]
+  },
+  "HSQL27.1/answer": {
+    "columns": [
+      "orders",
+      "aov"
+    ],
+    "rows": [
+      {
+        "orders": 0,
+        "aov": null
+      }
+    ]
+  },
+  "HSQL28.1/answer": {
+    "columns": [
+      "customer_id"
+    ],
+    "rows": []
+  },
+  "HA01.1/period_totals": {
+    "columns": [
+      "base_amount",
+      "current_amount",
+      "delta",
+      "growth_pct"
+    ],
+    "rows": [
+      {
+        "base_amount": 614182.0,
+        "current_amount": 728091.5,
+        "delta": 113909.5,
+        "growth_pct": 18.5465
+      }
+    ]
+  },
+  "HA02.1/monthly_facts": {
+    "columns": [
+      "month",
+      "orders",
+      "buyers",
+      "amount",
+      "aov"
+    ],
+    "rows": [
+      {
+        "month": 11,
+        "orders": 160,
+        "buyers": 20,
+        "amount": 728091.5,
+        "aov": 4550.57
+      },
+      {
+        "month": 12,
+        "orders": 160,
+        "buyers": 20,
+        "amount": 635143.5,
+        "aov": 3969.65
+      }
+    ]
+  },
+  "HA02.1/category_contributions": {
+    "columns": [
+      "category",
+      "base_amount",
+      "current_amount",
+      "delta"
+    ],
+    "rows": [
+      {
+        "category": "手机数码",
+        "base_amount": 523685.5,
+        "current_amount": 456825.0,
+        "delta": -66860.5
+      },
+      {
+        "category": "家用电器",
+        "base_amount": 164825.5,
+        "current_amount": 123184.0,
+        "delta": -41641.5
+      },
+      {
+        "category": "休闲零食",
+        "base_amount": 601.0,
+        "current_amount": 552.0,
+        "delta": -49.0
+      },
+      {
+        "category": "食品饮料",
+        "base_amount": 2811.0,
+        "current_amount": 2803.5,
+        "delta": -7.5
+      },
+      {
+        "category": "服饰",
+        "base_amount": 9451.0,
+        "current_amount": 11307.5,
+        "delta": 1856.5
+      },
+      {
+        "category": "鞋靴",
+        "base_amount": 26717.5,
+        "current_amount": 40471.5,
+        "delta": 13754.0
+      }
+    ]
+  },
+  "HA03.1/combined": {
+    "columns": [
+      "month",
+      "orders",
+      "amount",
+      "aov"
+    ],
+    "rows": [
+      {
+        "month": 4,
+        "orders": 200,
+        "amount": 20000.0,
+        "aov": 100.0
+      },
+      {
+        "month": 5,
+        "orders": 160,
+        "amount": 14000.0,
+        "aov": 87.5
+      }
+    ]
+  },
+  "HA03.1/regional": {
+    "columns": [
+      "region_name",
+      "month",
+      "orders",
+      "amount",
+      "aov"
+    ],
+    "rows": [
+      {
+        "region_name": "华东",
+        "month": 4,
+        "orders": 100,
+        "amount": 10000.0,
+        "aov": 100.0
+      },
+      {
+        "region_name": "华东",
+        "month": 5,
+        "orders": 60,
+        "amount": 6000.0,
+        "aov": 100.0
+      },
+      {
+        "region_name": "华南",
+        "month": 4,
+        "orders": 100,
+        "amount": 10000.0,
+        "aov": 100.0
+      },
+      {
+        "region_name": "华南",
+        "month": 5,
+        "orders": 100,
+        "amount": 8000.0,
+        "aov": 80.0
+      }
+    ]
+  },
+  "HA04.1/known_and_missing": {
+    "columns": [
+      "orders",
+      "known_orders",
+      "missing_orders",
+      "known_amount",
+      "known_aov"
+    ],
+    "rows": [
+      {
+        "orders": 92,
+        "known_orders": 90,
+        "missing_orders": 2,
+        "known_amount": 306844.0,
+        "known_aov": 3409.38
+      }
+    ]
+  },
+  "HA04.1/monthly_quality": {
+    "columns": [
+      "month",
+      "orders",
+      "known_amount",
+      "missing_orders"
+    ],
+    "rows": [
+      {
+        "month": 7,
+        "orders": 80,
+        "known_amount": 305844.0,
+        "missing_orders": 0
+      },
+      {
+        "month": 8,
+        "orders": 0,
+        "known_amount": 0,
+        "missing_orders": 0
+      },
+      {
+        "month": 9,
+        "orders": 12,
+        "known_amount": 1000.0,
+        "missing_orders": 2
+      }
+    ]
+  },
+  "HM01.1/answer": {
+    "columns": [
+      "amount"
+    ],
+    "rows": [
+      {
+        "amount": 216420.5
+      }
+    ]
+  },
+  "HM01.2/answer": {
+    "columns": [
+      "amount"
+    ],
+    "rows": [
+      {
+        "amount": 972867.0
+      }
+    ]
+  },
+  "HM01.3/answer": {
+    "columns": [
+      "member_level",
+      "amount",
+      "buyers",
+      "avg_spend"
+    ],
+    "rows": [
+      {
+        "member_level": "白银",
+        "amount": 1435688.5,
+        "buyers": 5,
+        "avg_spend": 287137.7
+      },
+      {
+        "member_level": "铂金",
+        "amount": 1284757.0,
+        "buyers": 4,
+        "avg_spend": 321189.25
+      },
+      {
+        "member_level": "青铜",
+        "amount": 1458832.0,
+        "buyers": 5,
+        "avg_spend": 291766.4
+      },
+      {
+        "member_level": "黄金",
+        "amount": 1672297.0,
+        "buyers": 6,
+        "avg_spend": 278716.17
+      }
+    ]
+  },
+  "HM02.1/answer": {
+    "columns": [
+      "month",
+      "orders"
+    ],
+    "rows": [
+      {
+        "month": 7,
+        "orders": 80
+      },
+      {
+        "month": 8,
+        "orders": 80
+      },
+      {
+        "month": 9,
+        "orders": 80
+      },
+      {
+        "month": 10,
+        "orders": 80
+      },
+      {
+        "month": 11,
+        "orders": 80
+      },
+      {
+        "month": 12,
+        "orders": 80
+      }
+    ]
+  },
+  "HM02.2/answer": {
+    "columns": [
+      "month",
+      "orders"
+    ],
+    "rows": [
+      {
+        "month": 7,
+        "orders": 160
+      },
+      {
+        "month": 8,
+        "orders": 80
+      },
+      {
+        "month": 9,
+        "orders": 80
+      },
+      {
+        "month": 10,
+        "orders": 80
+      },
+      {
+        "month": 11,
+        "orders": 80
+      },
+      {
+        "month": 12,
+        "orders": 80
+      }
+    ]
+  },
+  "HM02.3/answer": {
+    "columns": [
+      "month",
+      "units"
+    ],
+    "rows": [
+      {
+        "month": 7,
+        "units": 610
+      },
+      {
+        "month": 8,
+        "units": 217
+      },
+      {
+        "month": 9,
+        "units": 221
+      }
+    ]
+  },
+  "HM03.2/answer": {
+    "columns": [
+      "avg_spend"
+    ],
+    "rows": [
+      {
+        "avg_spend": 19014.4
+      }
+    ]
+  },
+  "HM03.3/answer": {
+    "columns": [
+      "avg_spend"
+    ],
+    "rows": [
+      {
+        "avg_spend": 19120.83
+      }
+    ]
+  },
+  "HM04.1/answer": {
+    "columns": [
+      "amount",
+      "orders"
+    ],
+    "rows": [
+      {
+        "amount": 1479857.5,
+        "orders": 126
+      }
+    ]
+  },
+  "HM04.2/answer": {
+    "columns": [
+      "amount",
+      "orders"
+    ],
+    "rows": [
+      {
+        "amount": 1984234.5,
+        "orders": 386
+      }
+    ]
+  },
+  "HM04.3/answer": {
+    "columns": [
+      "amount",
+      "orders"
+    ],
+    "rows": [
+      {
+        "amount": 1075483.0,
+        "orders": 197
+      }
+    ]
+  },
+  "HM05.1/answer": {
+    "columns": [
+      "amount"
+    ],
+    "rows": [
+      {
+        "amount": 9540.5
+      }
+    ]
+  },
+  "HM05.2/answer": {
+    "columns": [
+      "known_aov"
+    ],
+    "rows": [
+      {
+        "known_aov": 100.0
+      }
+    ]
+  },
+  "HM05.3/answer": {
+    "columns": [
+      "known_aov",
+      "missing_orders"
+    ],
+    "rows": [
+      {
+        "known_aov": 100.0,
+        "missing_orders": 2
+      }
+    ]
+  },
+  "HM06.1/answer": {
+    "columns": [
+      "base_amount",
+      "current_amount",
+      "delta",
+      "growth_pct"
+    ],
+    "rows": [
+      {
+        "base_amount": 28251.0,
+        "current_amount": 294687.5,
+        "delta": 266436.5,
+        "growth_pct": 943.1047
+      }
+    ]
+  },
+  "HM06.2/answer": {
+    "columns": [
+      "base_amount",
+      "current_amount",
+      "delta",
+      "growth_pct"
+    ],
+    "rows": [
+      {
+        "base_amount": 380647.5,
+        "current_amount": 294687.5,
+        "delta": -85960.0,
+        "growth_pct": -22.5826
+      }
+    ]
+  },
+  "HM06.3/answer": {
+    "columns": [
+      "base_amount",
+      "current_amount",
+      "delta",
+      "growth_pct"
+    ],
+    "rows": [
+      {
+        "base_amount": 593840.0,
+        "current_amount": 10000.0,
+        "delta": -583840.0,
+        "growth_pct": -98.316
+      }
+    ]
+  },
+  "HM07.1/answer": {
+    "columns": [
+      "amount"
+    ],
+    "rows": [
+      {
+        "amount": 374802.0
+      }
+    ]
+  },
+  "HM07.3/answer": {
+    "columns": [
+      "units"
+    ],
+    "rows": [
+      {
+        "units": 1579
+      }
+    ]
+  },
+  "HM07.4/answer": {
+    "columns": [
+      "units"
+    ],
+    "rows": [
+      {
+        "units": 159
+      }
+    ]
+  },
+  "HM08.1/answer": {
+    "columns": [
+      "amount"
+    ],
+    "rows": [
+      {
+        "amount": 151144.0
+      }
+    ]
+  },
+  "HM08.3/answer": {
+    "columns": [
+      "amount"
+    ],
+    "rows": [
+      {
+        "amount": 109006.0
+      }
+    ]
+  }
+}

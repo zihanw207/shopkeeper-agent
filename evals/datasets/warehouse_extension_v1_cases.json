@@ -1,0 +1,51 @@
+[
+  {
+    "id": "east_order_count_decline",
+    "question": "2025 年华东地区 5 月销售额为什么比 4 月下降？订单数和平均订单金额分别如何变化？",
+    "reference_sql": "SELECT d.month AS month, COUNT(*) AS orders, SUM(o.order_quantity) AS units, SUM(o.order_amount) AS amount, SUM(o.order_amount)/COUNT(*) AS aov FROM fact_order o JOIN dim_date d ON d.date_id=o.date_id JOIN dim_region r ON r.region_id=o.region_id WHERE r.region_name='华东' AND o.date_id BETWEEN 20250401 AND 20250531 GROUP BY d.month ORDER BY d.month",
+    "expected": [{"month":4,"orders":100,"units":400,"amount":10000,"aov":100},{"month":5,"orders":60,"units":240,"amount":6000,"aov":100}],
+    "note": "销售额下降 40%，订单数下降 40%，平均订单金额保持 100；不能推断流量或促销原因。"
+  },
+  {
+    "id": "south_aov_decline",
+    "question": "2025 年华南地区 5 月销售额比 4 月下降，是订单数还是平均订单金额变化？",
+    "reference_sql": "SELECT d.month AS month, COUNT(*) AS orders, SUM(o.order_quantity) AS units, SUM(o.order_amount) AS amount, SUM(o.order_amount)/COUNT(*) AS aov FROM fact_order o JOIN dim_date d ON d.date_id=o.date_id JOIN dim_region r ON r.region_id=o.region_id WHERE r.region_name='华南' AND o.date_id BETWEEN 20250401 AND 20250531 GROUP BY d.month ORDER BY d.month",
+    "expected": [{"month":4,"orders":100,"units":400,"amount":10000,"aov":100},{"month":5,"orders":100,"units":400,"amount":8000,"aov":80}],
+    "note": "订单数和件数不变，平均订单金额下降 20%；金额变化不证明开展了促销。"
+  },
+  {
+    "id": "north_offsetting_categories",
+    "question": "2025 年华北地区 7 月比 6 月的销售额下降主要来自哪些品类？哪些品类抵消了下降？",
+    "reference_sql": "SELECT p.category AS category, SUM(CASE WHEN d.month=6 THEN o.order_amount ELSE 0 END) AS june_amount, SUM(CASE WHEN d.month=7 THEN o.order_amount ELSE 0 END) AS july_amount, SUM(CASE WHEN d.month=7 THEN o.order_amount ELSE -o.order_amount END) AS delta FROM fact_order o JOIN dim_product p ON p.product_id=o.product_id JOIN dim_date d ON d.date_id=o.date_id JOIN dim_region r ON r.region_id=o.region_id WHERE r.region_name='华北' AND o.date_id BETWEEN 20250601 AND 20250731 GROUP BY p.category ORDER BY p.category",
+    "expected": [{"category":"手机数码","june_amount":20000,"july_amount":10000,"delta":-10000},{"category":"食品饮料","june_amount":10000,"july_amount":15000,"delta":5000}],
+    "note": "总额 30000 -> 25000，净下降 5000；手机数码下降 10000，食品饮料增加 5000。净下降贡献率可为 200% 与 -100%，不能混同毛下降占比。"
+  },
+  {
+    "id": "zero_base_growth",
+    "question": "2025 年西南地区 9 月销售额比 8 月增长了多少，增长率是多少？",
+    "reference_sql": "WITH amounts AS (SELECT SUM(CASE WHEN d.month=8 THEN o.order_amount ELSE 0 END) AS base_amount, SUM(CASE WHEN d.month=9 THEN o.order_amount ELSE 0 END) AS current_amount FROM fact_order o JOIN dim_date d ON d.date_id=o.date_id JOIN dim_region r ON r.region_id=o.region_id WHERE r.region_name='西南' AND o.date_id BETWEEN 20250801 AND 20250930) SELECT base_amount, current_amount, current_amount-base_amount AS delta, (current_amount-base_amount)/NULLIF(base_amount,0) AS growth_rate FROM amounts",
+    "expected": [{"base_amount":0,"current_amount":1000,"delta":1000,"growth_rate":null}],
+    "note": "8 月有 10 笔零金额订单，基期不是缺记录；普通百分比增长率无定义。"
+  },
+  {
+    "id": "no_orders_is_not_zero_orders_value",
+    "question": "2025 年华中地区 8 月有几笔订单？销售额是多少？",
+    "reference_sql": "SELECT COUNT(*) AS orders, SUM(o.order_amount) AS raw_amount FROM fact_order o JOIN dim_region r ON r.region_id=o.region_id WHERE r.region_name='华中' AND o.date_id BETWEEN 20250801 AND 20250831",
+    "expected": [{"orders":0,"raw_amount":null}],
+    "note": "原始 SUM 结果为 NULL；若业务展示为 0，必须说明这是无订单条件下的展示口径，不能把它和金额缺失混为一谈。"
+  },
+  {
+    "id": "missing_amount",
+    "question": "2025 年华中地区 9 月有多少订单金额缺失？已知金额的合计和平均值是多少？",
+    "reference_sql": "SELECT COUNT(*) AS orders, COUNT(o.order_amount) AS known_amount_orders, COUNT(*)-COUNT(o.order_amount) AS missing_amount_orders, SUM(o.order_amount) AS known_amount, AVG(o.order_amount) AS known_amount_average FROM fact_order o JOIN dim_region r ON r.region_id=o.region_id WHERE r.region_name='华中' AND o.date_id BETWEEN 20250901 AND 20250930",
+    "expected": [{"orders":12,"known_amount_orders":10,"missing_amount_orders":2,"known_amount":1000,"known_amount_average":100}],
+    "note": "缺失金额不是零，已知金额合计不能声称为完整销售额；不能把 1000/12 称为准确的全部订单客单价。"
+  },
+  {
+    "id": "tied_first_products",
+    "question": "2025 年华中地区 10 月销售额最高的商品有哪些？并列第一全部列出。",
+    "reference_sql": "WITH totals AS (SELECT p.product_id, SUM(o.order_amount) AS amount FROM fact_order o JOIN dim_product p ON p.product_id=o.product_id JOIN dim_region r ON r.region_id=o.region_id WHERE r.region_name='华中' AND o.date_id BETWEEN 20251001 AND 20251031 GROUP BY p.product_id) SELECT product_id, amount FROM totals WHERE amount=(SELECT MAX(amount) FROM totals) ORDER BY product_id",
+    "expected": [{"product_id":"P001","amount":5000},{"product_id":"P002","amount":5000}],
+    "note": "P001、P002 并列第一；LIMIT 1 会漏掉一项。"
+  }
+]

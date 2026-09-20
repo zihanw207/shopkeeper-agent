@@ -1,0 +1,41 @@
+{
+  "version": "holdout-v1",
+  "frozen_at": "2026-09-19",
+  "split": "candidate_holdout",
+  "sha256": {
+    "cases.json": "e3bee95c1fe0fb394ad573f5a191594a6648c322659356f5cf2f0867479480ab",
+    "goldens.json": "5d8ecef67487294616e1d5802dc7c8c669555abc98aad2284a1717c5606181eb"
+  },
+  "fixture": {
+    "version": "warehouse-extension-v1",
+    "extension_sha256": "fa152c5ae4652dca72cf1933cde3be526383685634aa058f2971855c7d9601df",
+    "seed_file_sha256": "1c66bc1f891b064d706d86ec56fb5970e999d0fb8a0c57d8b876bed18c22519b",
+    "final_counts": {
+      "dim_region": 6,
+      "dim_customer": 20,
+      "dim_product": 15,
+      "dim_date": 731,
+      "fact_order": 9840
+    }
+  },
+  "counts": {
+    "scenarios": 46,
+    "turns": 63,
+    "reference_queries": 57,
+    "mutants": 18,
+    "by_kind": {
+      "sql": 28,
+      "behavior": 6,
+      "analysis": 4,
+      "conversation": 8
+    },
+    "by_exposure": {
+      "background_holdout": 23,
+      "compositional_transfer": 17,
+      "behavior_holdout": 6
+    },
+    "mock_only_scenarios": 3
+  },
+  "golden_provenance": "参考SQL显式编写并审查，在固定数据快照上离线计算；已用真实MySQL只读复核。不依赖被测Agent的输出。",
+  "model_evaluation_run_before_freeze": false
+}
